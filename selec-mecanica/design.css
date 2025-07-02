@@ -446,15 +446,24 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
     }
     
+    /* === ALTERAÇÃO PRINCIPAL AQUI === */
     .grid-periodos-last-row {
-        flex-direction: column;
-        align-items: center;
+        /* Define a div como um subgrid, alinhando seu conteúdo com a grade pai */
+        display: grid;
+        grid-template-columns: subgrid;
+        
+        /* Remove o espaçamento extra para que o alinhamento seja perfeito */
+        margin-top: 0;
+        padding: 0;
     }
     
     .grid-periodos-last-row .botao-periodo {
-        max-width: 100%;
-        width: 100%;
+        /* Reseta as propriedades de flexbox do modo desktop */
+        max-width: none;
+        width: auto;
+        min-width: 0;
     }
+    /* === FIM DA ALTERAÇÃO === */
     
     .title-periodos {
         font-size: 2em;
