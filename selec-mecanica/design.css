@@ -31,8 +31,8 @@ body {
 h2 {
     font-size: 0.8em;
     margin-top: 40px;
-    color: rgba(255, 255, 255, 0.85); /* Aumentei um pouco a opacidade para ler melhor */
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Adicionei sombra para legibilidade */
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
     position: relative;
     z-index: 2;
@@ -142,23 +142,24 @@ h2 {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* === ALTERAÇÃO PRINCIPAL AQUI === */
+/* Layout de lista vertical para os botões */
 .grid-periodos {
     display: grid;
-    grid-template-columns: 1fr; /* 1. Apenas UMA coluna */
-    gap: 15px; /* 2. Diminuí um pouco o espaçamento */
+    grid-template-columns: 1fr;
+    gap: 15px;
     width: calc(100% - 50px);
-    max-width: 500px; /* 3. Limitei a largura máxima para não ficar largo demais em telas grandes */
+    max-width: 500px;
     margin-bottom: 30px;
     box-sizing: border-box;
 }
 
+/* Estilo padrão para TODOS os botões de período */
 .botao-periodo {
     background-color: #4A4A4A;
     color: white;
     border: none;
     border-radius: 12px;
-    padding: 20px 0; /* Ajustei o padding vertical */
+    padding: 20px 0;
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -191,15 +192,17 @@ h2 {
     transform: translateX(100%);
 }
 
-/* 4. Faz a div desaparecer e promove seus filhos (os 2 últimos botões) para a grade principal */
+/* Faz a div "desaparecer" para o layout, colocando seus botões na grade principal */
 .grid-periodos-last-row {
     display: contents;
 }
 
-/* 5. Removemos os estilos antigos que não são mais necessários */
-.grid-periodos-last-row .botao-periodo {
-   all: unset; /* Reseta completamente qualquer estilo que estava aqui */
-}
+/*
+   A REGRA ANTIGA E COM DEFEITO QUE ESTAVA AQUI FOI REMOVIDA.
+   Não há mais nenhuma regra para `.grid-periodos-last-row .botao-periodo`.
+   Isso garante que os dois últimos botões recebam o mesmo estilo de `.botao-periodo` que os outros.
+*/
+
 
 /* ===== MODAL DE DISCIPLINAS (sem alteração) ===== */
 .disciplines-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.6); justify-content: center; align-items: center; padding: 20px; }
@@ -227,7 +230,7 @@ h2 {
 .discipline-item.disabled-discipline input[type="checkbox"] { border-color: #888; background-color: #555; }
 .prerequisite-warning { font-size: 0.9em; color: #FF6347; font-weight: normal; flex: 1; min-width: 0; white-space: normal; line-height: 1.5; padding: 8px; background: rgba(0, 0, 0, 0.15); border-radius: 5px; margin-top: 5px; }
 
-/* 6. Removemos as regras de responsividade que agora são desnecessárias */
+/* Media queries simplificadas pois o layout é o mesmo em todas as telas */
 @media (max-width: 768px) {
     .title-periodos {
         font-size: 2em;
@@ -249,7 +252,6 @@ h2 {
         flex-direction: column;
     }
 }
-
 @media (max-width: 480px) {
     .modal-content {
         padding: 20px;
