@@ -87,3 +87,12 @@ h2 {
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
+h3 {
+    font-size: 0.6em;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    font-weight: normal;
+}
