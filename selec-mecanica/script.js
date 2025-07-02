@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // --- Evento para a navegação de voltar ---
         backButton.addEventListener('click', () => {
-            window.location.href = '../inicio.html';
+            window.location.href = '../index.html';
         });
         resultsButton.addEventListener('click', () => {
             window.location.href = 'resultados/resultados.html';
