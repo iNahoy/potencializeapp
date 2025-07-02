@@ -1,0 +1,124 @@
+{
+    "1": [
+      { "name": "Cálculo Diferencial e Integral 1", "value": "Calculo1", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Desenho Técnico 1", "value": "DesenhoTecnico1", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Física Geral 1", "value": "Fisica1", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Geometria Analítica", "value": "GeometriaAnalitica", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Gestão Ambiental", "value": "GestaoAmbiental", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Português Instrumental 1", "value": "Portugues1", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "75h", "prerequisite": [] },
+      { "name": "Tópicos de Engenharia Civil 1", "value": "TopicosEngenhariaCivil1", "carga_horaria": "90h", "prerequisite": [] }
+    ],
+    "2": [
+      { "name": "Álgebra Linear", "value": "AlgebraLinear", "carga_horaria": "45h", "prerequisite": ["GeometriaAnalitica"] },
+      { "name": "Cálculo Diferencial e Integral 2", "value": "Calculo2", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+      { "name": "Desenho Técnico 2", "value": "DesenhoTecnico2", "carga_horaria": "30h", "prerequisite": ["DesenhoTecnico1"] },
+      { "name": "Física Geral 2", "value": "Fisica2", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+      { "name": "Gestão da Produção", "value": "GestaoProducao", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Linguagem de Programação", "value": "LinguagemProgramacao", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Língua Estrangeira 1", "value": "LinguaEstrangeira1", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Português Instrumental 2", "value": "Portugues2", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Química 2A", "value": "Quimica2A", "carga_horaria": "75h", "prerequisite": [] }
+    ],
+    "3": [
+      { "name": "Cálculo Diferencial e Integral 3", "value": "Calculo3", "carga_horaria": "60h", "prerequisite": ["Calculo2"] },
+      { "name": "Cálculo Numérico", "value": "CalculoNumerico", "carga_horaria": "45h", "prerequisite": ["Calculo1"] },
+      { "name": "Empreendedorismo", "value": "Empreendedorismo", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Física Geral 3", "value": "Fisica3", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+      { "name": "Língua Estrangeira 2", "value": "LinguaEstrangeira2", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira1"] },
+      { "name": "Materiais de Construção 1", "value": "MateriaisConstrucao1", "carga_horaria": "60h", "prerequisite": ["Quimica1A"] },
+      { "name": "Português Instrumental 3", "value": "Portugues3", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Tópicos de Engenharia Civil 2A", "value": "TopicosEngenhariaCivil2A", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "4": [
+      { "name": "Cálculo Diferencial e Integral 4", "value": "Calculo4", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
+      { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo2"] },
+      { "name": "Fenômeno de Transportes", "value": "FenomenoTransportes", "carga_horaria": "60h", "prerequisite": ["Fisica2"], "corequisite": ["Calculo4"] },
+      { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
+      { "name": "Materiais de Construção 2", "value": "MateriaisConstrucao2", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao1"] },
+      { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [], "corequisite": ["TecnologiaConstrucoes1"] },
+      { "name": "Tecnologia das Construções 1", "value": "TecnologiaConstrucoes1", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao2"] },
+      { "name": "Topografia 1", "value": "Topografia1", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico1"] }
+    ],
+    "5": [
+      { "name": "Geologia", "value": "Geologia", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Instalações Prediais", "value": "InstalacoesPrediais", "carga_horaria": "120h", "prerequisite": ["Fisica3", "DesenhoTecnico2"] },
+      { "name": "Legislação para Engenharia", "value": "LegislacaoParaEngenharia", "carga_horaria": "30h", "prerequisite": [] },
+      { "name": "Mecânica Geral 1", "value": "MecanicaGeral1", "carga_horaria": "45h", "prerequisite": ["Calculo2", "Fisica1"] },
+      { "name": "Tecnologia das Construções 2", "value": "TecnologiaConstrucoes2", "carga_horaria": "60h", "prerequisite": ["TecnologiaConstrucoes1"] },
+      { "name": "Topografia 2", "value": "Topografia2", "carga_horaria": "60h", "prerequisite": ["Topografia1"] }
+    ],
+    "6": [
+      { "name": "ESO (Tecnólogo)", "value": "ESOTecnologo", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
+      { "name": "Hidráulica Geral", "value": "HidraulicaGeral", "carga_horaria": "60h", "prerequisite": ["FenomenoTransportes"] },
+      { "name": "Higiene Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Mecânica dos Solos 1", "value": "MecanicaSolos1", "carga_horaria": "60h", "prerequisite": ["Geologia"], "corequisite": ["ResistenciaDosMateriais"] },
+      { "name": "Mecânica Geral 2", "value": "MecanicaGeral2", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
+      { "name": "Resistência dos Materiais", "value": "ResistenciaDosMateriais", "carga_horaria": "80h", "prerequisite": ["MecanicaGeral1"] },
+      { "name": "TCC (Tecnólogo)", "value": "TCCTecnologo", "carga_horaria": "30h", "prerequisite": ["Portugues4"], "is_tcc_eso": true }
+    ],
+    "7": [
+      { "name": "Estabilidade das Construções 1", "value": "EstabilidadeConstrucoes1", "carga_horaria": "60h", "prerequisite": ["ResistenciaDosMateriais"] },
+      { "name": "Estradas 1", "value": "Estradas1", "carga_horaria": "45h", "prerequisite": ["Topografia2"] },
+      { "name": "Hidrologia Geral", "value": "HidrologiaGeral", "carga_horaria": "60h", "prerequisite": ["HidraulicaGeral"] },
+      { "name": "Língua Estrangeira 4", "value": "LinguaEstrangeira4", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira3"] },
+      { "name": "Mecânica dos Solos 2", "value": "MecanicaSolos2", "carga_horaria": "60h", "prerequisite": ["MecanicaSolos1"] },
+      { "name": "Tópicos de Engenharia Civil 3", "value": "TopicosEngenhariaCivil3", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "8": [
+      { "name": "Concreto 1", "value": "Concreto1", "carga_horaria": "80h", "prerequisite": ["ResistenciaDosMateriais"] },
+      { "name": "Estabilidade das Construções 2", "value": "EstabilidadeConstrucoes2", "carga_horaria": "80h", "prerequisite": ["EstabilidadeConstrucoes1"] },
+      { "name": "Estradas 2", "value": "Estradas2", "carga_horaria": "45h", "prerequisite": ["Estradas1"] },
+      { "name": "Fundações 1", "value": "Fundacoes1", "carga_horaria": "45h", "prerequisite": ["MecanicaSolos2"] },
+      { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
+      { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
+      { "name": "Saneamento 1", "value": "Saneamento1", "carga_horaria": "45h", "prerequisite": ["HidraulicaGeral"] }
+    ],
+    "9": [
+      { "name": "Concreto 2", "value": "Concreto2", "carga_horaria": "80h", "prerequisite": ["Concreto1", "EstabilidadeConstrucoes1"] },
+      { "name": "Economia dos Transportes", "value": "EconomiaTransportes", "carga_horaria": "45h", "prerequisite": ["Estradas1"] },
+      { "name": "Estruturas Metálicas e de Madeira", "value": "EstruturasMetalicasMadeira", "carga_horaria": "45h", "prerequisite": ["EstabilidadeConstrucoes1"] },
+      { "name": "Fundações 2", "value": "Fundacoes2", "carga_horaria": "45h", "prerequisite": ["Fundacoes1"] },
+      { "name": "Introdução ao Trabalho de Conclusão de Curso", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
+      { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
+      { "name": "Saneamento 2", "value": "Saneamento2", "carga_horaria": "45h", "prerequisite": ["Saneamento1"] },
+      { "name": "Tópicos de Engenharia Civil 4", "value": "TopicosEngenhariaCivil4", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "10": [
+      { "name": "ESO (bacharelado)", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+      { "name": "Gerenciamento de Projetos e Obras", "value": "GerenciamentoProjetosObras", "carga_horaria": "45h", "prerequisite": ["TecnologiaConstrucoes2"] },
+      { "name": "Pontes", "value": "Pontes", "carga_horaria": "45h", "prerequisite": ["Concreto2", "Fundacoes2"] },
+      { "name": "TCC (bacharelado)", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
+    ],
+    "OPTATIVAS": [
+      { "name": "Aterramento", "value": "Aterramento", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+      { "name": "Arquitetura e Urbanismo", "value": "ArquiteturaUrbanismo", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico2"] },
+      { "name": "Barragens", "value": "Barragens", "carga_horaria": "60h", "prerequisite": ["MecanicaSolos2"] },
+      { "name": "Concreto e Argamassas", "value": "ConcretoArgamassas", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao1"] },
+      { "name": "Concreto Protendido", "value": "ConcretoProtendido", "carga_horaria": "60h", "prerequisite": ["Concreto1"] },
+      { "name": "Controle Tecnológico e Ensaio de Laboratório", "value": "ControleTecnologicoEnsaioLaboratorio", "carga_horaria": "60h", "prerequisite": [], "corequisite": ["MecanicaSolos1"] },
+      { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Engenharia de Avaliações", "value": "EngenhariaAvaliacoes", "carga_horaria": "60h", "prerequisite": ["TecnologiaConstrucoes1"] },
+      { "name": "Engenharia de Tráfego", "value": "EngenhariaTrafego", "carga_horaria": "60h", "prerequisite": ["Estradas2"] },
+      { "name": "Engenharia Solar Fotovoltaica", "value": "EngenhariaSolarFotovoltaica", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+      { "name": "Ensaios Mecânicos", "value": "EnsaiosMecanicos", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral1"] },
+      { "name": "Física Geral 4", "value": "Fisica4", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
+      { "name": "Gestão e Tecnologia de Aproveitamento de Resíduos da Construção Civil", "value": "GestaoResiduosConstrucao", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Hidrologia Aplicada a Geração de Energia", "value": "HidrologiaAplicada", "carga_horaria": "60h", "prerequisite": ["HidrologiaGeral"] },
+      { "name": "Linguagem Brasileira de Sinais", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Matemática Elementar", "value": "MatematicaElementar", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Métodos Computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
+      { "name": "Orçamento na Construção Civil", "value": "OrcamentoConstrucaoCivil", "carga_horaria": "60h", "prerequisite": [], "corequisite": ["TecnologiaConstrucoes2"] },
+      { "name": "Patologia e Terapia das Construções", "value": "PatologiaTerapiaConstrucoes", "carga_horaria": "60h", "prerequisite": ["TecnologiaConstrucoes1"] },
+      { "name": "Pesquisa Operacional", "value": "PesquisaOperacional", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+      { "name": "Planejamento e Modelagem Integrada de Projetos – Arquitetura e Engenharia", "value": "PlanejamentoModelagemIntegrada", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico2"] },
+      { "name": "Portos e Hidrovias", "value": "PortosHidrovias", "carga_horaria": "60h", "prerequisite": ["HidraulicaGeral", "HidrologiaGeral"] },
+      { "name": "Processos Estocásticos", "value": "ProcessosEstocasticos", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral"] },
+      { "name": "Projeto de Construção Civil", "value": "ProjetoConstrucaoCivil", "carga_horaria": "60h", "prerequisite": ["TecnologiaConstrucoes2"] },
+      { "name": "Projeto de Estruturas Integradas", "value": "ProjetoEstruturasIntegradas", "carga_horaria": "60h", "prerequisite": ["Concreto2"] },
+      { "name": "Reuso de Águas", "value": "ReusoAguas", "carga_horaria": "60h", "prerequisite": ["InstalacoesPrediais"] },
+      { "name": "Seminários em Engenharia Civil", "value": "SeminariosEngenhariaCivil", "carga_horaria": "15h", "prerequisite": ["Portugues4"] },
+      { "name": "Soldagem", "value": "Soldagem", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao2"] },
+      { "name": "Técnicas para resolução de circuitos elétricos", "value": "TecnicasResolucaoCircuitos", "carga_horaria": "60h", "prerequisite": ["Calculo1"] }
+    ]
+}

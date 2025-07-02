@@ -1,0 +1,315 @@
+/* resultados/design.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #20415A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background-image: linear-gradient(rgba(32, 65, 90, 0.9), rgba(32, 65, 90, 0.9)), url('../../img/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    line-height: 1.6;
+}
+
+.container-resultados {
+    background-color: #20415A;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    width: 900px;
+    max-width: 90%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-periodos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0 0;
+}
+
+.main-navigation-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-potencialize-small {
+    width: 30px;
+    height: auto;
+    filter: drop-shadow(0 0 2px #F8B400);
+}
+
+.rota-potencializada-text {
+    font-size: 1.1em;
+    color: #F8B400;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(248, 180, 0, 0.3);
+}
+
+.navigation-path {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.navigation-path span.arrow {
+    font-size: 1.5em;
+    color: #F8B400;
+}
+
+.course-name {
+    color: #F8B400;
+    font-weight: bold;
+}
+
+.navigation-path span:last-child {
+    color: #F8B400;
+    font-weight: bold;
+}
+
+.navigation-arrows {
+    display: flex;
+    gap: 10px;
+}
+
+.arrow-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.8em;
+    color: #F8B400;
+    cursor: pointer;
+    line-height: 1;
+    transition: transform 0.2s;
+}
+
+.arrow-btn:hover {
+    transform: scale(1.1);
+    background: none;
+}
+
+.content-wrapper {
+    padding: 0 30px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title-resultados {
+    color: #F8B400;
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.available-disciplines {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.available-disciplines h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.disciplines-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.discipline-card {
+    background-color: #4A4A4A;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.discipline-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(248, 180, 0, 0.1), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.discipline-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #5A5A5A;
+}
+
+.discipline-card:hover::before {
+    transform: translateX(100%);
+}
+
+.discipline-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #F8B400;
+    position: relative;
+    z-index: 1;
+}
+
+.discipline-info {
+    font-size: 0.95em;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.progress-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.progress-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.progress-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #4A4A4A;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #F8B400, #FFD166);
+    border-radius: 15px;
+    transition: width 0.5s ease;
+    width: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: progressShine 2s infinite;
+}
+
+@keyframes progressShine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.progress-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 0.8em;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .disciplines-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .title-resultados {
+        font-size: 2em;
+    }
+    
+    .header-periodos {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .navigation-arrows {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .navigation-path {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .discipline-card {
+        padding: 15px;
+    }
+    
+    .discipline-name {
+        font-size: 1.1em;
+    }
+    
+    .progress-bar {
+        height: 25px;
+    }
+    
+    .title-resultados {
+        font-size: 1.8em;
+    }
+}

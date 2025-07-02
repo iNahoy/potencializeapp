@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotenciRotas - Engenharia Civil</title>
+    <link rel="icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container-periodos">
+        <div class="header-periodos">
+            <div class="main-navigation-group">
+                <div class="logo-title-wrapper">
+                    <img src="../img/logo.png" alt="Logo Potencialize" class="logo-potencialize-small">
+                    <span class="rota-potencializada-text">PotenciRotas</span>
+                </div>
+                <div class="navigation-path">
+                    <span aria-hidden="true">&rarr;</span>
+                    <span class="course-name">Engenharia Civil</span>
+                </div>
+            </div>
+            <div class="navigation-arrows">
+                <button class="arrow-btn" id="back-button" aria-label="Voltar">
+                    &lt;
+                </button>
+                <button class="arrow-btn" id="results-button" aria-label="Ver resultados">
+                    &gt;
+                </button>
+            </div>
+        </div>
+
+        <h1 class="title-periodos">Períodos</h1>
+
+        <section class="grid-periodos">
+            <button class="botao-periodo" data-periodo="1">1º Período</button>
+            <button class="botao-periodo" data-periodo="2">2º Período</button>
+            <button class="botao-periodo" data-periodo="3">3º Período</button>
+            <button class="botao-periodo" data-periodo="4">4º Período</button>
+            <button class="botao-periodo" data-periodo="5">5º Período</button>
+            <button class="botao-periodo" data-periodo="6">6º Período</button>
+            <button class="botao-periodo" data-periodo="7">7º Período</button>
+            <button class="botao-periodo" data-periodo="8">8º Período</button>
+            <button class="botao-periodo" data-periodo="9">9º Período</button>
+            
+            <div class="grid-periodos-last-row">
+                <button class="botao-periodo" data-periodo="10">10º Período</button>
+                <button class="botao-periodo" data-periodo="OPTATIVAS">Disciplinas Optativas</button>
+            </div>
+        </section>
+    </div>
+
+    <h2>Desenvolvido por: Potencialize Projetos e Consultoria Jr. de Engenharia</h2>
+
+    <div id="disciplines-modal" class="disciplines-modal">
+        <div class="modal-content">
+            <button class="close-button" aria-label="Fechar modal">&times;</button>
+            <h3 id="modal-title"></h3>
+            <div class="disciplines-list"></div>
+            <div class="modal-buttons-container">
+                <button class="select-all-button">Selecionar Todas</button>
+                <button class="save-button">Salvar Seleção</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
