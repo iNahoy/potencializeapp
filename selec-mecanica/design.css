@@ -20,21 +20,23 @@ body {
     align-items: center;
     min-height: 100vh;
     color: white;
-    /* Removida a imagem de fundo que podia atrapalhar a leitura */
+    background-image: linear-gradient(rgba(32, 65, 90, 0.9), rgba(32, 65, 90, 0.9)), url('../img/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     line-height: 1.6;
 }
 
-/* === CORREÇÃO DE VISIBILIDADE DO TEXTO === */
 h2 {
     font-size: 0.8em;
     margin-top: 40px;
-    color: #e0e0e0; /* Cor sólida e clara */
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7); /* Sombra para legibilidade */
+    color: rgba(255, 255, 255, 0.85); /* Aumentei um pouco a opacidade para ler melhor */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Adicionei sombra para legibilidade */
     text-align: center;
     position: relative;
     z-index: 2;
     font-weight: normal;
-    padding: 0 15px; /* Adicionado para evitar que o texto encoste nas bordas */
 }
 
 /* ===== CONTAINER PERÍODOS ===== */
@@ -140,12 +142,13 @@ h2 {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* === ALTERAÇÃO PRINCIPAL AQUI === */
 .grid-periodos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: 1fr; /* 1. Apenas UMA coluna */
+    gap: 15px; /* 2. Diminuí um pouco o espaçamento */
     width: calc(100% - 50px);
-    max-width: 850px;
+    max-width: 500px; /* 3. Limitei a largura máxima para não ficar largo demais em telas grandes */
     margin-bottom: 30px;
     box-sizing: border-box;
 }
@@ -155,7 +158,7 @@ h2 {
     color: white;
     border: none;
     border-radius: 12px;
-    padding: 22px 0;
+    padding: 20px 0; /* Ajustei o padding vertical */
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -188,27 +191,17 @@ h2 {
     transform: translateX(100%);
 }
 
-/* Última linha de botões (Desktop) */
+/* 4. Faz a div desaparecer e promove seus filhos (os 2 últimos botões) para a grade principal */
 .grid-periodos-last-row {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    margin-top: 10px;
-    box-sizing: border-box;
-    padding: 0 20px;
+    display: contents;
 }
 
+/* 5. Removemos os estilos antigos que não são mais necessários */
 .grid-periodos-last-row .botao-periodo {
-    flex-grow: 1;
-    max-width: 45%;
-    min-width: 180px;
+   all: unset; /* Reseta completamente qualquer estilo que estava aqui */
 }
 
-/* ... (O restante do CSS para o modal e outros elementos permanece o mesmo) ... */
-
-/* ===== MODAL DE DISCIPLINAS ===== */
+/* ===== MODAL DE DISCIPLINAS (sem alteração) ===== */
 .disciplines-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.6); justify-content: center; align-items: center; padding: 20px; }
 .modal-content { background-color: #2F2F2F; margin: auto; padding: 35px; border-radius: 15px; box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); width: 500px; max-width: 90%; max-height: 90vh; position: relative; color: white; animation: modalFadeIn 0.3s ease-out; display: flex; flex-direction: column; }
 @keyframes modalFadeIn { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
@@ -234,32 +227,8 @@ h2 {
 .discipline-item.disabled-discipline input[type="checkbox"] { border-color: #888; background-color: #555; }
 .prerequisite-warning { font-size: 0.9em; color: #FF6347; font-weight: normal; flex: 1; min-width: 0; white-space: normal; line-height: 1.5; padding: 8px; background: rgba(0, 0, 0, 0.15); border-radius: 5px; margin-top: 5px; }
 
-/* ===== Responsividade ===== */
+/* 6. Removemos as regras de responsividade que agora são desnecessárias */
 @media (max-width: 768px) {
-    .grid-periodos {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    /* === CORREÇÃO DE LAYOUT MOBILE === */
-    .grid-periodos-last-row {
-        /* A div vira um grid aninhado para alinhar com o grid pai */
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
-        
-        /* Reseta estilos do modo desktop que não se aplicam aqui */
-        margin-top: 0;
-        padding: 0;
-        justify-content: initial;
-    }
-    
-    .grid-periodos-last-row .botao-periodo {
-        /* Reseta os estilos de tamanho para que o grid controle */
-        max-width: none;
-        width: auto;
-        min-width: 0;
-    }
-    /* === FIM DA CORREÇÃO === */
-    
     .title-periodos {
         font-size: 2em;
     }
@@ -282,15 +251,6 @@ h2 {
 }
 
 @media (max-width: 480px) {
-    .grid-periodos {
-        grid-template-columns: 1fr;
-    }
-    
-    .grid-periodos-last-row {
-        /* No modo de 1 coluna, o grid aninhado também vira 1 coluna */
-        grid-template-columns: 1fr;
-    }
-    
     .modal-content {
         padding: 20px;
     }
@@ -303,7 +263,7 @@ h2 {
         font-size: 1em;
     }
 }
-/* ===== CUSTOM ALERT STYLES (mantido como original) ===== */
+/* ===== CUSTOM ALERT STYLES (sem alteração) ===== */
 .custom-alert { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); display: flex; justify-content: center; align-items: center; z-index: 2000; animation: modalFadeIn 0.3s ease-out; }
 .custom-alert-content { background-color: #20415a; padding: 30px; border-radius: 15px; box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); width: 350px; max-width: 90%; text-align: center; border: 2px solid #F8B400; }
 .custom-alert p { color: white; font-size: 1.1em; margin-bottom: 25px; line-height: 1.5; }
