@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PotenciRotas - Engenharia Civil</title>
     <link rel="icon" href="../img/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="design.css">
-    <style>
-        /* CSS será inserido aqui */
-    </style>
 </head>
 <body>
     <div class="container-periodos">
@@ -18,13 +14,11 @@
             <div class="main-navigation-group">
                 <div class="logo-title-wrapper">
                     <img src="../img/logo.png" alt="Logo Potencialize" class="logo-potencialize-small">
-                    <div class="header-title">
-                        <span class="rota-potencializada-text">PotenciRotas</span>
-                        <span class="navigation-path">
-                            <span aria-hidden="true" class="arrow-separator">→</span>
-                            <span class="course-name">Engenharia Civil</span>
-                        </span>
-                    </div>
+                    <span class="rota-potencializada-text">PotenciRotas</span>
+                </div>
+                <div class="navigation-path">
+                    <span aria-hidden="true">&rarr;</span>
+                    <span class="course-name">Engenharia Civil</span>
                 </div>
             </div>
             <div class="navigation-arrows">
@@ -49,16 +43,15 @@
             <button class="botao-periodo" data-periodo="7">7º Período</button>
             <button class="botao-periodo" data-periodo="8">8º Período</button>
             <button class="botao-periodo" data-periodo="9">9º Período</button>
-            <button class="botao-periodo" data-periodo="10">10º Período</button>
-            <button class="botao-periodo special-button" data-periodo="OPTATIVAS">
-                <i class="fas fa-book-open"></i> Disciplinas Optativas
-            </button>
+            
+            <div class="grid-periodos-last-row">
+                <button class="botao-periodo" data-periodo="10">10º Período</button>
+                <button class="botao-periodo" data-periodo="OPTATIVAS">Disciplinas Optativas</button>
+            </div>
         </section>
     </div>
 
-    <footer class="footer-developer">
-        <p>Desenvolvido por: Potencialize Projetos e Consultoria Jr. de Engenharia</p>
-    </footer>
+    <h2>Desenvolvido por: Potencialize Projetos e Consultoria Jr. de Engenharia</h2>
 
     <div id="disciplines-modal" class="disciplines-modal">
         <div class="modal-content">
