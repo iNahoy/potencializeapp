@@ -1,0 +1,107 @@
+{
+    "1": [
+        { "name": "Cálculo Diferencial e Integral 1", "value": "Calculo1", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Desenho Técnico 1", "value": "DesenhoTecnico1", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Física Geral 1", "value": "Fisica1", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Geometria Analítica", "value": "GeometriaAnalitica", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Gestão Ambiental", "value": "GestaoAmbiental", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Português Instrumental 1", "value": "Portugues1", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia de Materiais 1A", "value": "TopicosEngenhariaMateriais1A", "carga_horaria": "90h", "prerequisite": [] }
+    ],
+    "2": [
+        { "name": "Álgebra Linear", "value": "AlgebraLinear", "carga_horaria": "45h", "prerequisite": ["GeometriaAnalitica"] },
+        { "name": "Cálculo Diferencial e Integral 2", "value": "Calculo2", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+        { "name": "Desenho Técnico 2", "value": "DesenhoTecnico2", "carga_horaria": "30h", "prerequisite": ["DesenhoTecnico1"] },
+        { "name": "Física Geral 2", "value": "Fisica2", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+        { "name": "Gestão da Produção", "value": "GestaoProducao", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Linguagem de Programação", "value": "LinguagemProgramacao", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Língua Estrangeira 1", "value": "LinguaEstrangeira1", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Português Instrumental 2", "value": "Portugues2", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Química 2A", "value": "Quimica2A", "carga_horaria": "75h", "prerequisite": [] }
+    ],
+    "3": [
+        { "name": "Cálculo Diferencial e Integral 3", "value": "Calculo3", "carga_horaria": "60h", "prerequisite": ["Calculo2"] },
+        { "name": "Cálculo Numérico", "value": "CalculoNumerico", "carga_horaria": "45h", "prerequisite": ["Calculo1"] },
+        { "name": "Empreendedorismo", "value": "Empreendedorismo", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Física Geral 3", "value": "Fisica3", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+        { "name": "Língua Estrangeira 2", "value": "LinguaEstrangeira2", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira1"] },
+        { "name": "Português Instrumental 3", "value": "Portugues3", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Química 3", "value": "Quimica3", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia de Materiais 2A", "value": "TopicosEngenhariaMateriais2A", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "4": [
+        { "name": "Cálculo Diferencial e Integral 4", "value": "Calculo4", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
+        { "name": "Ciência dos Materiais", "value": "CienciaMateriais", "carga_horaria": "90h", "prerequisite": ["Fisica2", "Quimica1A"] },
+        { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo2"] },
+        { "name": "Física Geral 4", "value": "Fisica4", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
+        { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
+        { "name": "Mecânica Geral", "value": "MecanicaGeral", "carga_horaria": "60h", "prerequisite": ["Calculo2", "Fisica1"] },
+        { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [] }
+    ],
+    "5": [
+        { "name": "Comportamento Mecânico dos Materiais", "value": "ComportamentoMecanicoMateriais", "carga_horaria": "45h", "prerequisite": ["CienciaMateriais", "MecanicaGeral"] },
+        { "name": "Higiene e Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Materiais Cerâmicos", "value": "MateriaisCeramicos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Materiais Poliméricos", "value": "MateriaisPolimericos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Tópicos de Engenharia de Materiais 3A", "value": "TopicosEngenhariaMateriais3A", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Transformação de Fases", "value": "TransformacaoFases", "carga_horaria": "45h", "prerequisite": ["CienciaMateriais"] }
+    ],
+    "6": [
+        { "name": "Ensaios Mecânicos", "value": "EnsaiosMecanicos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais", "ComportamentoMecanicoMateriais"] },
+        { "name": "ESO Tecnológico", "value": "ESOTecnologico", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
+        { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Materiais Compósitos", "value": "MateriaisCompositos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Métodos de Caracterização de Materiais", "value": "MetodosCaracterizacaoMateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Processamento dos Materiais", "value": "ProcessamentoMateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "TCC Tecnológico", "value": "TCCTecnologico", "carga_horaria": "30h", "prerequisite": ["Portugues4"], "is_tcc_eso": true }
+    ],
+    "7": [
+        { "name": "Estrutura e Propriedade dos Polímeros", "value": "EstruturaPropriedadePolimeros", "carga_horaria": "60h", "prerequisite": ["MateriaisPolimericos"] },
+        { "name": "Fenômeno de Transportes", "value": "FenomenoTransportes", "carga_horaria": "60h", "prerequisite": ["Fisica2"], "corequisite": ["Calculo4"] },
+        { "name": "Língua Estrangeira 4", "value": "LinguaEstrangeira4", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira3"] },
+        { "name": "Processamento dos Materiais Cerâmicos", "value": "ProcessamentoMateriaisCeramicos", "carga_horaria": "60h", "prerequisite": ["MateriaisCeramicos"] },
+        { "name": "Resistência dos Materiais", "value": "ResistenciaMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral"] },
+        { "name": "Siderurgia e Fundição", "value": "SiderurgiaFundicao", "carga_horaria": "45h", "prerequisite": ["TransformacaoFases"] },
+        { "name": "Tópicos de Engenharia de Materiais 4", "value": "TopicosEngenhariaMateriais4", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "8": [
+        { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
+        { "name": "Processamento dos Materiais Poliméricos", "value": "ProcessamentoMateriaisPolimericos", "carga_horaria": "60h", "prerequisite": ["EstruturaPropriedadePolimeros"] },
+        { "name": "Processos de Conformação Plástica", "value": "ProcessosConformacaoPlastica", "carga_horaria": "60h", "prerequisite": ["TransformacaoFases"] },
+        { "name": "Reologia", "value": "Reologia", "carga_horaria": "45h", "prerequisite": ["FenomenoTransportes"] },
+        { "name": "Termodinâmica Geral", "value": "TermodinamicaGeral", "carga_horaria": "75h", "prerequisite": ["Calculo2", "Fisica2"] }
+    ],
+    "9": [
+        { "name": "Cerâmicas Especiais", "value": "CeramicasEspeciais", "carga_horaria": "60h", "prerequisite": ["MateriaisCeramicos"] },
+        { "name": "Corrosão e Degradação", "value": "CorrosaoDegradacao", "carga_horaria": "45h", "prerequisite": ["MateriaisCeramicos", "MateriaisPolimericos", "TransformacaoFases"] },
+        { "name": "Eletricidade Aplicada", "value": "EletricidadeAplicada", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
+        { "name": "Introdução ao TCC", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
+        { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
+        { "name": "Reciclagem dos Materiais", "value": "ReciclagemMateriais", "carga_horaria": "45h", "prerequisite": ["CienciaMateriais"] }
+    ],
+    "10": [
+        { "name": "ESO Bacharelado", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+        { "name": "Metalurgia do Pó", "value": "MetalurgiaPo", "carga_horaria": "45h", "prerequisite": ["TransformacaoFases"] },
+        { "name": "Soldagem", "value": "Soldagem", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "TCC Bacharelado", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
+    ],
+    "OPTATIVAS": [
+        { "name": "Adesivos e Fibra", "value": "AdesivosFibra", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Aditivação de Polímeros", "value": "AditivacaoPolimeros", "carga_horaria": "60h", "prerequisite": ["ProcessamentoMateriaisPolimericos"] },
+        { "name": "Biomateriais", "value": "Biomateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
+        { "name": "Blendas Poliméricas", "value": "BlendasPolimericas", "carga_horaria": "60h", "prerequisite": ["EstruturaPropriedadePolimeros"] },
+        { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Física do Estado Sólido", "value": "FisicaEstadoSolido", "carga_horaria": "60h", "prerequisite": ["FisicaModerna"] },
+        { "name": "Física Moderna", "value": "FisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Gerência de Projetos", "value": "GerenciaProjetos", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Laboratório de Física Moderna", "value": "LaboratorioFisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Linguagem Brasileira de Sinais - LIBRAS", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Mecanismos de Endurecimento", "value": "MecanismosEndurecimento", "carga_horaria": "60h", "prerequisite": ["TransformacaoFases"] },
+        { "name": "Mineralogia Sistemática e Cristalografia", "value": "MineralogiaSistematicaCristalografia", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Pesquisa Operacional", "value": "PesquisaOperacional", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+        { "name": "Tecnologia de Vidros", "value": "TecnologiaVidros", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Trocadores de Calor", "value": "TrocadoresCalor", "carga_horaria": "60h", "prerequisite": [] }
+    ]
+}

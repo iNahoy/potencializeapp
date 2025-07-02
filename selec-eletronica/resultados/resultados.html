@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotenciRotas - Engenharia Eletrônica - Resultados</title>
+    <link rel="icon" href="../../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container-resultados">
+        <div class="header-periodos">
+            <div class="main-navigation-group">
+                <div class="logo-title-wrapper">
+                    <img src="../../img/logo.png" alt="Logo Potencialize" class="logo-potencialize-small">
+                    <span class="rota-potencializada-text">PotenciRotas</span>
+                </div>
+                <div class="navigation-path">
+                    <span class = "arrow" aria-hidden="true">&rarr;</span>
+                    <span class = "course-name">Engenharia Eletrônica</span>
+                    <span class = "arrow" aria-hidden="true">&rarr;</span>
+                    <span class = "course-name">Resultados</span>
+                </div>
+            </div>
+            <div class="navigation-arrows">
+                <button class="arrow-btn" id="back-button" aria-label="Voltar">
+                    &lt;
+                </button>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <h1 class="title-resultados">O Que posso cursar neste período?</h1>
+
+            <section class="available-disciplines">
+                <h2>Neste período estão disponíveis as matérias:</h2>
+                <div class="disciplines-grid" id="disciplines-container">
+                    <!-- As disciplinas serão inseridas aqui via JavaScript -->
+                </div>
+            </section>
+
+            <section class="progress-section">
+                <h2>Sua progressão no curso é de:</h2>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <span class="progress-text" id="progress-text">0%</span>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <h2>Desenvolvido por: Potencialize Projetos e Consultoria Jr. de Engenharia</h2>
+
+    <script src="resultados.js"></script>
+</body>
+</html>

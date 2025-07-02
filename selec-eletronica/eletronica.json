@@ -1,0 +1,124 @@
+{
+  "1": [
+    { "name": "Cálculo Diferencial e Integral 1", "value": "Calculo1", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Desenho Técnico 1", "value": "DesenhoTecnico1", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Física Geral 1", "value": "Fisica1", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Geometria Analítica", "value": "GeometriaAnalitica", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Gestão Ambiental", "value": "GestaoAmbiental", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Português Instrumental 1", "value": "Portugues1", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Tópicos de Engenharia Eletrônica 1A", "value": "TopicosEngenhariaEletronica1A", "carga_horaria": "90h", "prerequisite": [] }
+  ],
+  "2": [
+    { "name": "Álgebra Linear", "value": "AlgebraLinear", "carga_horaria": "45h", "prerequisite": ["GeometriaAnalitica"] },
+    { "name": "Cálculo Diferencial e Integral 2", "value": "Calculo2", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+    { "name": "Desenho Técnico 2", "value": "DesenhoTecnico2", "carga_horaria": "30h", "prerequisite": ["DesenhoTecnico1"] },
+    { "name": "Física Geral 2", "value": "Fisica2", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+    { "name": "Linguagem de Programação", "value": "LinguagemProgramacao", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Língua Estrangeira 1", "value": "LinguaEstrangeira1", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Português Instrumental 2", "value": "Portugues2", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Química 2A", "value": "Quimica2A", "carga_horaria": "75h", "prerequisite": [] },
+    { "name": "Tópicos de Engenharia Eletrônica 2A", "value": "TopicosEngenhariaEletronica2A", "carga_horaria": "60h", "prerequisite": [] }
+  ],
+  "3": [
+    { "name": "Cálculo Diferencial e Integral 3", "value": "Calculo3", "carga_horaria": "60h", "prerequisite": ["Calculo2"] },
+    { "name": "Cálculo Numérico", "value": "CalculoNumerico", "carga_horaria": "45h", "prerequisite": ["Calculo1"] },
+    { "name": "Circuitos Elétricos 1", "value": "CircuitosEletricos1", "carga_horaria": "90h", "prerequisite": ["Calculo1"] },
+    { "name": "Empreendedorismo", "value": "Empreendedorismo", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Física Geral 3", "value": "Fisica3", "carga_horaria": "75h", "prerequisite": ["Fisica1", "Calculo1"] },
+    { "name": "Gestão da Produção", "value": "GestaoProducao", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Língua Estrangeira 2", "value": "LinguaEstrangeira2", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira1"] },
+    { "name": "Português Instrumental 3", "value": "Portugues3", "carga_horaria": "30h", "prerequisite": [] }
+  ],
+  "4": [
+    { "name": "Cálculo Diferencial e Integral 4", "value": "Calculo4", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
+    { "name": "Circuitos Elétricos 2", "value": "CircuitosEletricos2", "carga_horaria": "90h", "prerequisite": ["CircuitosEletricos1"], "corequisite": ["Fisica3"] },
+    { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo2"] },
+    { "name": "Física Geral 4", "value": "Fisica4", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
+    { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
+    { "name": "Mecânica Geral", "value": "MecanicaGeral", "carga_horaria": "60h", "prerequisite": ["Fisica1", "Calculo2"] },
+    { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Sinais e Sistemas", "value": "SinaisSistemas", "carga_horaria": "60h", "prerequisite": ["CircuitosEletricos1"] }
+  ],
+  "5": [
+    { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "45h", "prerequisite": ["Calculo3"] },
+    { "name": "Eletrônica 1", "value": "Eletronica1", "carga_horaria": "75h", "prerequisite": ["CircuitosEletricos1"] },
+    { "name": "Higiene e Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Instalações Elétricas", "value": "InstalacoesEletricas", "carga_horaria": "60h", "prerequisite": ["CircuitosEletricos2"] },
+    { "name": "Medidas Eletromagnéticas", "value": "MedidasEletromagneticas", "carga_horaria": "30h", "prerequisite": ["CircuitosEletricos1"] },
+    { "name": "Servomecanismo", "value": "Servomecanismo", "carga_horaria": "45h", "prerequisite": ["SinaisSistemas"] },
+    { "name": "Técnicas Digitais", "value": "TecnicasDigitais", "carga_horaria": "60h", "prerequisite": [] }
+  ],
+  "6": [
+    { "name": "Eletrônica Industrial", "value": "EletronicaIndustrial", "carga_horaria": "45h", "prerequisite": ["Eletronica1"] },
+    { "name": "ESO Tecnólogo", "value": "ESOTecnologo", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
+    { "name": "Projeto de Dispositivos Programáveis", "value": "ProjetoDispositivosProgramaveis", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
+    { "name": "Redes de Computadores", "value": "RedesComputadores", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Sistemas de Controle 1", "value": "SistemasControle1", "carga_horaria": "60h", "prerequisite": ["Servomecanismo"] },
+    { "name": "TCC Tecnólogo", "value": "TCCTecnologo", "carga_horaria": "30h", "prerequisite": ["ESOTecnologo"], "is_tcc_eso": true }
+  ],
+  "7": [
+    { "name": "Eletrônica 2", "value": "Eletronica2", "carga_horaria": "75h", "prerequisite": ["Eletronica1"] },
+    { "name": "Eletrônica Digital", "value": "EletronicaDigital", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
+    { "name": "Eletromagnetismo 1", "value": "Eletromagnetismo1", "carga_horaria": "60h", "prerequisite": ["Fisica3", "Calculo3"] },
+    { "name": "Língua Estrangeira 4", "value": "LinguaEstrangeira4", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira3"] },
+    { "name": "Processamento Digital de Sinais 1", "value": "ProcessamentoDigitalSinais1", "carga_horaria": "60h", "prerequisite": ["SinaisSistemas"] },
+    { "name": "Sistemas de Controle 2", "value": "SistemasControle2", "carga_horaria": "45h", "prerequisite": ["SistemasControle1"] },
+    { "name": "Tecnologia dos Materiais", "value": "TecnologiaMateriais", "carga_horaria": "30h", "prerequisite": [] }
+  ],
+  "8": [
+    { "name": "Conversão Eletromecânica de Energia", "value": "ConversaoEletromecanicaEnergia", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo1"] },
+    { "name": "Eletromagnetismo 2", "value": "Eletromagnetismo2", "carga_horaria": "45h", "prerequisite": ["Eletromagnetismo1"] },
+    { "name": "Fenômeno de Transportes", "value": "FenomenoTransportes", "carga_horaria": "60h", "prerequisite": ["Fisica2", "Calculo4"] },
+    { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
+    { "name": "Princípios de Comunicação", "value": "PrincipiosComunicacao", "carga_horaria": "60h", "prerequisite": ["SinaisSistemas"] },
+    { "name": "Tópicos de Engenharia Eletrônica 3", "value": "TopicosEngenhariaEletronica3", "carga_horaria": "60h", "prerequisite": [] }
+  ],
+  "9": [
+    { "name": "Eletrônica 3", "value": "Eletronica3", "carga_horaria": "45h", "prerequisite": ["Eletronica2"] },
+    { "name": "Introdução ao TCC", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
+    { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
+    { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
+    { "name": "Organização dos Computadores", "value": "OrganizacaoComputadores", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Resistência dos Materiais", "value": "ResistenciaMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral"] },
+    { "name": "Tópicos de Engenharia Eletrônica 4", "value": "TopicosEngenhariaEletronica4", "carga_horaria": "60h", "prerequisite": [] }
+  ],
+  "10": [
+    { "name": "ESO Bacharelado", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+    { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Proteção de Sistemas Elétricos", "value": "ProtecaoSistemasEletricos", "carga_horaria": "45h", "prerequisite": ["ConversaoEletromecanicaEnergia"] },
+    { "name": "TCC Bacharelado", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
+  ],
+  "OPTATIVAS": [
+    { "name": "Aterramento", "value": "Aterramento", "carga_horaria": "60h", "prerequisite": ["MedidasEletromagneticas"] },
+    { "name": "Comunicações Óticas", "value": "ComunicacoesOticas", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+    { "name": "Componentes de Sistemas Elétricos", "value": "ComponentesSistemasEletricos", "carga_horaria": "45h", "prerequisite": [], "corequisite": ["ConversaoEletromecanicaEnergia"] },
+    { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Eletromagnetismo Avançado", "value": "EletromagnetismoAvancado", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo2"] },
+    { "name": "Eletrônica de Potência", "value": "EletronicaPotencia", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Engenharia Solar Fotovoltaica", "value": "EngenhariaSolarFotovoltaica", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+    { "name": "Equipamentos Elétricos", "value": "EquipamentosEletricos", "carga_horaria": "45h", "prerequisite": ["CircuitosEletricos2"] },
+    { "name": "Filtragem Adaptativa", "value": "FiltragemAdaptativa", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral", "ProcessamentoDigitalSinais1"] },
+    { "name": "Física do Estado Sólido", "value": "FisicaEstadoSolido", "carga_horaria": "60h", "prerequisite": ["FisicaModerna"] },
+    { "name": "Física Moderna", "value": "FisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+    { "name": "Inteligência Artificial", "value": "InteligenciaArtificial", "carga_horaria": "60h", "prerequisite": ["LinguagemProgramacao"] },
+    { "name": "Introdução à Dinâmica Não Linear", "value": "IntroducaoDinamicaNaoLinear", "carga_horaria": "60h", "prerequisite": ["Calculo4"] },
+    { "name": "Introdução à Ótica", "value": "IntroducaoOtica", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+    { "name": "Laboratório de Física Moderna", "value": "LaboratorioFisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+    { "name": "Linguagem Brasileira de Sinais - LIBRAS", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Máquinas Elétricas", "value": "MaquinasEletricas", "carga_horaria": "60h", "prerequisite": ["ConversaoEletromecanicaEnergia"] },
+    { "name": "Máquinas Primárias", "value": "MaquinasPrimarias", "carga_horaria": "60h", "prerequisite": ["Fisica2"] },
+    { "name": "Metodologia Científica", "value": "MetodologiaCientifica", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Métodos Computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
+    { "name": "Microprocessadores e Microcontroladores", "value": "MicroprocessadoresMicrocontroladores", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
+    { "name": "Pesquisa Operacional", "value": "PesquisaOperacional", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+    { "name": "Planejamento de Sistemas Elétricos", "value": "PlanejamentoSistemasEletricos", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Processamento Digital de Sinais 2", "value": "ProcessamentoDigitalSinais2", "carga_horaria": "60h", "prerequisite": ["ProcessamentoDigitalSinais1"] },
+    { "name": "Processos Estocásticos", "value": "ProcessosEstocasticos", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral"] },
+    { "name": "Prototipação de Circuitos Digitais", "value": "PrototipacaoCircuitosDigitais", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
+    { "name": "Qualidade de Energia Elétrica", "value": "QualidadeEnergiaEletrica", "carga_horaria": "60h", "prerequisite": [] },
+    { "name": "Redes para Automação Industrial", "value": "RedesAutomacaoIndustrial", "carga_horaria": "60h", "prerequisite": ["RedesComputadores"] },
+    { "name": "Robótica", "value": "Robotica", "carga_horaria": "60h", "prerequisite": ["LinguagemProgramacao"] },
+    { "name": "Transmissão e Distribuição de Energia Elétrica", "value": "TransmissaoDistribuicaoEnergiaEletrica", "carga_horaria": "60h", "prerequisite": ["ConversaoEletromecanicaEnergia"] }
+  ]
+}

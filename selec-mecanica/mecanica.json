@@ -1,0 +1,122 @@
+{
+    "1": [
+        { "name": "Cálculo Diferencial e Integral 1", "value": "Calculo1", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Desenho Técnico 1", "value": "DesenhoTecnico1", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Física Geral 1", "value": "Fisica1", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Geometria Analítica", "value": "GeometriaAnalitica", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Gestão Ambiental", "value": "GestaoAmbiental", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Português Instrumental 1", "value": "Portugues1", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia Mecânica 1A", "value": "TopicosEngenhariaMecanica1A", "carga_horaria": "90h", "prerequisite": [] }
+    ],
+    "2": [
+        { "name": "Cálculo Diferencial e Integral 2", "value": "Calculo2", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+        { "name": "Desenho Técnico 2", "value": "DesenhoTecnico2", "carga_horaria": "30h", "prerequisite": ["DesenhoTecnico1"] },
+        { "name": "Física Geral 2", "value": "Fisica2", "carga_horaria": "75h", "prerequisite": ["Calculo1", "Fisica1"] },
+        { "name": "Linguagem de Programação", "value": "LinguagemProgramacao", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Língua Estrangeira 1", "value": "LinguaEstrangeira1", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Português Instrumental 2", "value": "Portugues2", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Química 2A", "value": "Quimica2A", "carga_horaria": "75h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia Mecânica 2A", "value": "TopicosEngenhariaMecanica2A", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "3": [
+        { "name": "Álgebra Linear", "value": "AlgebraLinear", "carga_horaria": "45h", "prerequisite": ["GeometriaAnalitica"] },
+        { "name": "Cálculo Diferencial e Integral 3", "value": "Calculo3", "carga_horaria": "60h", "prerequisite": ["Calculo2"] },
+        { "name": "Cálculo Numérico", "value": "CalculoNumerico", "carga_horaria": "45h", "prerequisite": ["Calculo1"] },
+        { "name": "Empreendedorismo", "value": "Empreendedorismo", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Física Geral 3", "value": "Fisica3", "carga_horaria": "75h", "prerequisite": ["Calculo1", "Fisica1"] },
+        { "name": "Gestão da Produção", "value": "GestaoProducao", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Língua Estrangeira 2", "value": "LinguaEstrangeira2", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira1"] },
+        { "name": "Português Instrumental 3", "value": "Portugues3", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia Mecânica 3A", "value": "TopicosEngenhariaMecanica3A", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "4": [
+        { "name": "Cálculo Diferencial e Integral 4", "value": "Calculo4", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
+        { "name": "Ciências e Processamento de Materiais", "value": "CienciasProcessamentoMateriais", "carga_horaria": "105h", "prerequisite": ["Quimica1A"] },
+        { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo2"] },
+        { "name": "Física Geral 4", "value": "Fisica4", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
+        { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
+        { "name": "Mecânica Geral 1", "value": "MecanicaGeral1", "carga_horaria": "45h", "prerequisite": ["Calculo2", "Fisica1"] },
+        { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Tópicos de Engenharia Mecânica 4", "value": "TopicosEngenhariaMecanica4", "carga_horaria": "60h", "prerequisite": [] }
+    ],
+    "5": [
+        { "name": "Automação Industrial e Controle 1", "value": "AutomacaoIndustrialControle1", "carga_horaria": "60h", "prerequisite": ["Fisica2"] },
+        { "name": "Ensaios Mecânicos", "value": "EnsaiosMecanicos", "carga_horaria": "60h", "prerequisite": ["CienciasProcessamentoMateriais"] },
+        { "name": "Equipamentos Eletromecânicos", "value": "EquipamentosEletromecanicos", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Fabricação por Usinagem", "value": "FabricacaoUsinagem", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
+        { "name": "Mecânica Geral 2", "value": "MecanicaGeral2", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
+        { "name": "Metrologia", "value": "Metrologia", "carga_horaria": "60h", "prerequisite": ["Fisica4"] }
+    ],
+    "6": [
+        { "name": "Confiabilidade de Sistemas", "value": "ConfiabilidadeSistemas", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral"] },
+        { "name": "ESO (Tecnológico)", "value": "ESOTecnologico", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
+        { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Higiene e Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Resistência dos Materiais", "value": "ResistenciaMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral1"] },
+        { "name": "TCC (Tecnológico)", "value": "TCCTecnologico", "carga_horaria": "30h", "prerequisite": [], "is_tcc_eso": true },
+        { "name": "Tecnologia Metalúrgica", "value": "TecnologiaMetalurgica", "carga_horaria": "45h", "prerequisite": ["CienciasProcessamentoMateriais", "FabricacaoUsinagem"] }
+    ],
+    "7": [
+        { "name": "Automação Industrial e Controle 2", "value": "AutomacaoIndustrialControle2", "carga_horaria": "60h", "prerequisite": ["AutomacaoIndustrialControle1"] },
+        { "name": "Elementos de Máquinas", "value": "ElementosMaquinas", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
+        { "name": "Fenômenos de Transporte", "value": "FenomenosTransporte", "carga_horaria": "60h", "prerequisite": ["Fisica2"], "corequisite": ["Calculo4"] },
+        { "name": "Gestão de Qualidade", "value": "GestaoQualidade", "carga_horaria": "45h", "prerequisite": ["GestaoProducao"] },
+        { "name": "Língua Estrangeira 4", "value": "LinguaEstrangeira4", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira3"] },
+        { "name": "Termodinâmica 1", "value": "Termodinamica1", "carga_horaria": "60h", "prerequisite": ["Fisica2"] },
+        { "name": "Transmissão de Calor 1", "value": "TransmissaoCalor1", "carga_horaria": "45h", "prerequisite": ["Fisica2"] }
+    ],
+    "8": [
+        { "name": "Caldeiras e Fornos", "value": "CaldeirasFornos", "carga_horaria": "60h", "prerequisite": ["GestaoAmbiental"] },
+        { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
+        { "name": "Máquinas Hidráulicas", "value": "MaquinasHidraulicas", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Máquinas Térmicas 1", "value": "MaquinasTermicas1", "carga_horaria": "60h", "prerequisite": ["Termodinamica1", "TransmissaoCalor1"] },
+        { "name": "Termodinâmica 2", "value": "Termodinamica2", "carga_horaria": "60h", "prerequisite": ["Termodinamica1"] },
+        { "name": "Transmissão de Calor 2", "value": "TransmissaoCalor2", "carga_horaria": "45h", "prerequisite": ["TransmissaoCalor1"] }
+    ],
+    "9": [
+        { "name": "Ar Condicionado e Refrigeração", "value": "ArCondicionadoRefrigeracao", "carga_horaria": "45h", "prerequisite": ["Fisica2"] },
+        { "name": "Introdução ao Trabalho de Conclusão de Curso", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
+        { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
+        { "name": "Máquinas Térmicas 2", "value": "MaquinasTermicas2", "carga_horaria": "60h", "prerequisite": ["MaquinasTermicas1"] },
+        { "name": "Sistemas Fluido-Mecânicos", "value": "SistemasFluidoMecanicos", "carga_horaria": "45h", "prerequisite": ["FenomenosTransporte"] },
+        { "name": "Vibrações Mecânicas", "value": "VibracoesMecanicas", "carga_horaria": "60h", "prerequisite": ["ResistenciaMateriais"] }
+    ],
+    "10": [
+        { "name": "ESO (Bacharelado)", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+        { "name": "TCC (Bacharelado)", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
+    ],
+    "OPTATIVAS": [
+        { "name": "Aterramento para Engenharia Mecânica", "value": "AterramentoEngenhariaMecanica", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
+        { "name": "Controle hidropneumático", "value": "ControleHidropneumatico", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Desenho Mecânico", "value": "DesenhoMecanico", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico2"] },
+        { "name": "Dinâmica de sistemas mecânicos", "value": "DinamicaSistemasMecanicos", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral2"] },
+        { "name": "Educação das relações étnico-raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Engenharia solar fotovoltaica", "value": "EngenhariaSolarFotovoltaica", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Física Moderna", "value": "FisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Gerência de projetos", "value": "GerenciaProjetos", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Instalações de Máquinas Marítimas", "value": "InstalacoesMaquinasMaritimas", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Instrumentação industrial", "value": "InstrumentacaoIndustrial", "carga_horaria": "60h", "prerequisite": ["AutomacaoIndustrialControle2"] },
+        { "name": "Integração e Otimização Energética", "value": "IntegracaoOtimizacaoEnergetica", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Introdução às equações diferenciais parciais", "value": "IntroducaoEquacoesDiferenciaisParciais", "carga_horaria": "60h", "prerequisite": ["Calculo3", "Calculo4"] },
+        { "name": "Introdução à dinâmica não linear", "value": "IntroducaoDinamicaNaoLinear", "carga_horaria": "60h", "prerequisite": ["Calculo4"] },
+        { "name": "Laboratório de Física Moderna", "value": "LaboratorioFisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Lasers e suas aplicações nas engenharias", "value": "LasersAplicacoesEngenharias", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+        { "name": "Linguagem brasileira de sinais", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Máquinas de Elevação", "value": "MaquinasElevacao", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Máquinas Marítimas", "value": "MaquinasMaritimas", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Matemática elementar", "value": "MatematicaElementar", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Mecanismos de endurecimento", "value": "MecanismosEndurecimento", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Métodos computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
+        { "name": "Nanotecnologia e nanomateriais", "value": "NanotecnologiaNanomateriais", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Pesquisa Operacional", "value": "PesquisaOperacional", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+        { "name": "Química ambiental", "value": "QuimicaAmbiental", "carga_horaria": "60h", "prerequisite": ["Quimica1A", "Quimica2A"] },
+        { "name": "Soldagem", "value": "Soldagem", "carga_horaria": "60h", "prerequisite": ["CienciasProcessamentoMateriais"] },
+        { "name": "Técnicas para resolução de circuitos elétricos", "value": "TecnicasResolucaoCircuitosEletricos", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
+        { "name": "Trocadores de Calor", "value": "TrocadoresCalor", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Tubulações Industriais", "value": "TubulacoesIndustriais", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Vasos de Pressão", "value": "VasosPressao", "carga_horaria": "60h", "prerequisite": [] }
+    ]
+}
