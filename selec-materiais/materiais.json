@@ -49,13 +49,11 @@
     ],
     "6": [
         { "name": "Ensaios Mecânicos", "value": "EnsaiosMecanicos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais", "ComportamentoMecanicoMateriais"] },
-        { "name": "ESO Tecnológico", "value": "ESOTecnologico", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
         { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
         { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
         { "name": "Materiais Compósitos", "value": "MateriaisCompositos", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
         { "name": "Métodos de Caracterização de Materiais", "value": "MetodosCaracterizacaoMateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
-        { "name": "Processamento dos Materiais", "value": "ProcessamentoMateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] },
-        { "name": "TCC Tecnológico", "value": "TCCTecnologico", "carga_horaria": "30h", "prerequisite": ["Portugues4"], "is_tcc_eso": true }
+        { "name": "Processamento dos Materiais", "value": "ProcessamentoMateriais", "carga_horaria": "60h", "prerequisite": ["CienciaMateriais"] }
     ],
     "7": [
         { "name": "Estrutura e Propriedade dos Polímeros", "value": "EstruturaPropriedadePolimeros", "carga_horaria": "60h", "prerequisite": ["MateriaisPolimericos"] },

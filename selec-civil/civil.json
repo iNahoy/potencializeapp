@@ -49,13 +49,11 @@
       { "name": "Topografia 2", "value": "Topografia2", "carga_horaria": "60h", "prerequisite": ["Topografia1"] }
     ],
     "6": [
-      { "name": "ESO (Tecnólogo)", "value": "ESOTecnologo", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
       { "name": "Hidráulica Geral", "value": "HidraulicaGeral", "carga_horaria": "60h", "prerequisite": ["FenomenoTransportes"] },
       { "name": "Higiene Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
       { "name": "Mecânica dos Solos 1", "value": "MecanicaSolos1", "carga_horaria": "60h", "prerequisite": ["Geologia"], "corequisite": ["ResistenciaDosMateriais"] },
       { "name": "Mecânica Geral 2", "value": "MecanicaGeral2", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
-      { "name": "Resistência dos Materiais", "value": "ResistenciaDosMateriais", "carga_horaria": "80h", "prerequisite": ["MecanicaGeral1"] },
-      { "name": "TCC (Tecnólogo)", "value": "TCCTecnologo", "carga_horaria": "30h", "prerequisite": ["Portugues4"], "is_tcc_eso": true }
+      { "name": "Resistência dos Materiais", "value": "ResistenciaDosMateriais", "carga_horaria": "80h", "prerequisite": ["MecanicaGeral1"] }
     ],
     "7": [
       { "name": "Estabilidade das Construções 1", "value": "EstabilidadeConstrucoes1", "carga_horaria": "60h", "prerequisite": ["ResistenciaDosMateriais"] },

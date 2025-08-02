@@ -53,10 +53,8 @@
     "6": [
         { "name": "Eletrônica Industrial", "value": "EletronicaIndustrial", "carga_horaria": "45h", "prerequisite": ["Eletronica1"] },
         { "name": "Equipamentos Elétricos", "value": "EquipamentosEletricos", "carga_horaria": "45h", "prerequisite": ["CircuitosEletricos2"] },
-        { "name": "ESO (Tecnológico)", "value": "ESOTecnologico", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
         { "name": "Máquinas Elétricas", "value": "MaquinasEletricas", "carga_horaria": "60h", "prerequisite": ["ConversaoEletromecanicaEnergia"] },
         { "name": "Proteção dos Sistemas Elétricos", "value": "ProtecaoSistemasEletricos", "carga_horaria": "45h", "prerequisite": [], "corequisite": ["ConversaoEletromecanicaEnergia"] },
-        { "name": "TCC (Tecnológico)", "value": "TCCTecnologico", "carga_horaria": "30h", "prerequisite": ["Portugues4"], "is_tcc_eso": true },
         { "name": "Transmissão e Distribuição de Energia Elétrica", "value": "TransmissaoDistribuicaoEnergiaEletrica", "carga_horaria": "60h", "prerequisite": ["ConversaoEletromecanicaEnergia"] }
     ],
     "7": [

@@ -51,11 +51,9 @@
   ],
   "6": [
     { "name": "Eletrônica Industrial", "value": "EletronicaIndustrial", "carga_horaria": "45h", "prerequisite": ["Eletronica1"] },
-    { "name": "ESO Tecnólogo", "value": "ESOTecnologo", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
     { "name": "Projeto de Dispositivos Programáveis", "value": "ProjetoDispositivosProgramaveis", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
     { "name": "Redes de Computadores", "value": "RedesComputadores", "carga_horaria": "60h", "prerequisite": [] },
-    { "name": "Sistemas de Controle 1", "value": "SistemasControle1", "carga_horaria": "60h", "prerequisite": ["Servomecanismo"] },
-    { "name": "TCC Tecnólogo", "value": "TCCTecnologo", "carga_horaria": "30h", "prerequisite": ["ESOTecnologo"], "is_tcc_eso": true }
+    { "name": "Sistemas de Controle 1", "value": "SistemasControle1", "carga_horaria": "60h", "prerequisite": ["Servomecanismo"] }
   ],
   "7": [
     { "name": "Eletrônica 2", "value": "Eletronica2", "carga_horaria": "75h", "prerequisite": ["Eletronica1"] },

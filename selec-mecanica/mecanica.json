@@ -51,11 +51,9 @@
     ],
     "6": [
         { "name": "Confiabilidade de Sistemas", "value": "ConfiabilidadeSistemas", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral"] },
-        { "name": "ESO (Tecnológico)", "value": "ESOTecnologico", "carga_horaria": "165h", "prerequisite": [], "is_tcc_eso": true },
         { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
         { "name": "Higiene e Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
         { "name": "Resistência dos Materiais", "value": "ResistenciaMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral1"] },
-        { "name": "TCC (Tecnológico)", "value": "TCCTecnologico", "carga_horaria": "30h", "prerequisite": [], "is_tcc_eso": true },
         { "name": "Tecnologia Metalúrgica", "value": "TecnologiaMetalurgica", "carga_horaria": "45h", "prerequisite": ["CienciasProcessamentoMateriais", "FabricacaoUsinagem"] }
     ],
     "7": [
