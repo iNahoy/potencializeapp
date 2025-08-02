@@ -47,7 +47,7 @@
         { "name": "Fabricação por Usinagem", "value": "FabricacaoUsinagem", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
         { "name": "Mecânica Geral 2", "value": "MecanicaGeral2", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
-        { "name": "Metrologia", "value": "Metrologia", "carga_horaria": "60h", "prerequisite": ["Fisica4"] }
+        { "name": "Metrologia", "value": "Metrologia", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico2"] }
     ],
     "6": [
         { "name": "Confiabilidade de Sistemas", "value": "ConfiabilidadeSistemas", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral"] },
