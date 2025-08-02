@@ -68,7 +68,7 @@
     "8": [
         { "name": "Caldeiras e Fornos", "value": "CaldeirasFornos", "carga_horaria": "60h", "prerequisite": ["GestaoAmbiental"] },
         { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
-        { "name": "Máquinas Hidráulicas", "value": "MaquinasHidraulicas", "carga_horaria": "45h", "prerequisite": [] },
+        { "name": "Máquinas Hidráulicas", "value": "MaquinasHidraulicas", "carga_horaria": "45h", "prerequisite": ["FenomenosTransporte"] },
         { "name": "Máquinas Térmicas 1", "value": "MaquinasTermicas1", "carga_horaria": "60h", "prerequisite": ["Termodinamica1", "TransmissaoCalor1"] },
         { "name": "Termodinâmica 2", "value": "Termodinamica2", "carga_horaria": "60h", "prerequisite": ["Termodinamica1"] },
         { "name": "Transmissão de Calor 2", "value": "TransmissaoCalor2", "carga_horaria": "45h", "prerequisite": ["TransmissaoCalor1"] }
