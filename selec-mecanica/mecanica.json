@@ -79,7 +79,7 @@
         { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
         { "name": "Máquinas Térmicas 2", "value": "MaquinasTermicas2", "carga_horaria": "60h", "prerequisite": ["MaquinasTermicas1"] },
         { "name": "Sistemas Fluido-Mecânicos", "value": "SistemasFluidoMecanicos", "carga_horaria": "45h", "prerequisite": ["FenomenosTransporte"] },
-        { "name": "Vibrações Mecânicas", "value": "VibracoesMecanicas", "carga_horaria": "60h", "prerequisite": ["ResistenciaMateriais"] }
+        { "name": "Vibrações Mecânicas", "value": "VibracoesMecanicas", "carga_horaria": "60h", "prerequisite": ["ResistenciaMateriais","MecanicaGeral2"] }
     ],
     "10": [
         { "name": "ESO (Bacharelado)", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
