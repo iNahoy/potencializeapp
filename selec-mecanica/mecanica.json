@@ -74,7 +74,7 @@
         { "name": "Transmissão de Calor 2", "value": "TransmissaoCalor2", "carga_horaria": "45h", "prerequisite": ["TransmissaoCalor1"] }
     ],
     "9": [
-        { "name": "Ar Condicionado e Refrigeração", "value": "ArCondicionadoRefrigeracao", "carga_horaria": "45h", "prerequisite": ["Fisica1","Fisica2","Termodinamica1","Termodinamica2","TransmissaoCalor1","TransmissaoCalor2"] },
+        { "name": "Ar Condicionado e Refrigeração", "value": "ArCondicionadoRefrigeracao", "carga_horaria": "45h", "prerequisite": ["Fisica2","Termodinamica2","TransmissaoCalor2"] },
         { "name": "Introdução ao Trabalho de Conclusão de Curso", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
         { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
         { "name": "Máquinas Térmicas 2", "value": "MaquinasTermicas2", "carga_horaria": "60h", "prerequisite": ["MaquinasTermicas1"] },
