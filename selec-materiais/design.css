@@ -20,7 +20,7 @@ body {
     align-items: center;
     min-height: 100vh;
     color: white;
-    background-image: linear-gradient(rgba(32, 65, 90, 0.9), rgba(32, 65, 90, 0.9)), url('../../img/logo.png');
+    background-image: linear-gradient(rgba(32, 65, 90, 0.9), rgba(32, 65, 90, 0.9)), url('../img/logo.png');
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -189,24 +189,6 @@ h2 {
     transform: translateX(100%);
 }
 
-/* Última linha de botões */
-.grid-periodos-last-row {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    margin-top: 10px;
-    box-sizing: border-box;
-    padding: 0 20px;
-}
-
-.grid-periodos-last-row .botao-periodo {
-    flex-grow: 1;
-    max-width: 45%;
-    min-width: 180px;
-}
-
 /* ===== MODAL DE DISCIPLINAS ===== */
 .disciplines-modal {
     display: none;
@@ -364,8 +346,7 @@ h2 {
 }
 
 /* Ajuste para os botões dentro do container */
-.modal-buttons-container .select-all-button,
-.modal-buttons-container .save-button {
+.modal-buttons-container .select-all-button{
     flex: 1;
     margin: 0;
     padding: 12px;
