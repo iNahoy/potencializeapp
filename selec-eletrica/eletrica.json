@@ -91,6 +91,7 @@
     "OPTATIVAS": [
         { "name": "Aterramento", "value": "Aterramento", "carga_horaria": "60h", "prerequisite": ["MedidasEletromagneticas"] },
         { "name": "Comunicações Óticas", "value": "ComunicacoesOticas", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+        { "name": "Confiabilidade", "value": "Confiabilidade", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Eletromagnetismo Avançado", "value": "EletromagnetismoAvancado", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo2"] },
         { "name": "Eletrônica Digital", "value": "EletronicaDigital", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },
@@ -98,6 +99,7 @@
         { "name": "Filtragem Adaptativa", "value": "FiltragemAdaptativa", "carga_horaria": "60h", "prerequisite": ["EstatisticaGeral", "ProcessamentoDigitalSinais1"] },
         { "name": "Física do Estado Sólido", "value": "FisicaEstadoSolido", "carga_horaria": "60h", "prerequisite": ["FisicaModerna"] },
         { "name": "Física Moderna", "value": "FisicaModerna", "carga_horaria": "60h", "prerequisite": ["Fisica3"] },
+        { "name": "Inteligência Artificial", "value": "InteligenciaArtificial", "carga_horaria": "60h", "prerequisite": ["LinguagemProgramacao"] },
         { "name": "Gerência de Projetos", "value": "GerenciaProjetos", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Introdução à Dinâmica Não Linear", "value": "IntroducaoDinamicaNaoLinear", "carga_horaria": "60h", "prerequisite": ["Calculo4"] },
         { "name": "Introdução à Ótica", "value": "IntroducaoOtica", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },

@@ -77,13 +77,13 @@
       { "name": "Economia dos Transportes", "value": "EconomiaTransportes", "carga_horaria": "45h", "prerequisite": ["Estradas1"] },
       { "name": "Estruturas Metálicas e de Madeira", "value": "EstruturasMetalicasMadeira", "carga_horaria": "45h", "prerequisite": ["EstabilidadeConstrucoes1"] },
       { "name": "Fundações 2", "value": "Fundacoes2", "carga_horaria": "45h", "prerequisite": ["Fundacoes1"] },
-      { "name": "Introdução ao Trabalho de Conclusão de Curso", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
+      { "name": "Introdução ao Trabalho de Conclusão de Curso", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4","TecnologiaConstrucoes2","InstalacoesPrediais", "MecanicaSolos2", "EstabilidadeConstrucoes1"] },
       { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
       { "name": "Saneamento 2", "value": "Saneamento2", "carga_horaria": "45h", "prerequisite": ["Saneamento1"] },
       { "name": "Tópicos de Engenharia Civil 4", "value": "TopicosEngenhariaCivil4", "carga_horaria": "60h", "prerequisite": [] }
     ],
     "10": [
-      { "name": "ESO (bacharelado)", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+      { "name": "ESO (bacharelado)", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": ["TecnologiaConstrucoes2","InstalacoesPrediais"], "is_tcc_eso": true },
       { "name": "Gerenciamento de Projetos e Obras", "value": "GerenciamentoProjetosObras", "carga_horaria": "45h", "prerequisite": ["TecnologiaConstrucoes2"] },
       { "name": "Pontes", "value": "Pontes", "carga_horaria": "45h", "prerequisite": ["Concreto2", "Fundacoes2"] },
       { "name": "TCC (bacharelado)", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
