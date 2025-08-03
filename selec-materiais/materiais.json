@@ -33,10 +33,10 @@
     "4": [
         { "name": "Cálculo Diferencial e Integral 4", "value": "Calculo4", "carga_horaria": "60h", "prerequisite": ["Calculo3"] },
         { "name": "Ciência dos Materiais", "value": "CienciaMateriais", "carga_horaria": "90h", "prerequisite": ["Fisica2", "Quimica1A"] },
-        { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo2"] },
+        { "name": "Estatística Geral", "value": "EstatisticaGeral", "carga_horaria": "45h", "prerequisite": ["Calculo1"] },
         { "name": "Física Geral 4", "value": "Fisica4", "carga_horaria": "45h", "prerequisite": ["Fisica3"] },
         { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
-        { "name": "Mecânica Geral", "value": "MecanicaGeral", "carga_horaria": "60h", "prerequisite": ["Calculo2", "Fisica1"] },
+        { "name": "Mecânica Geral", "value": "MecanicaGeral", "carga_horaria": "60h", "prerequisite": ["Calculo1", "Fisica1"] },
         { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [] }
     ],
     "5": [
