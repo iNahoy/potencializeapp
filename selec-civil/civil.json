@@ -6,7 +6,7 @@
       { "name": "Geometria Analítica", "value": "GeometriaAnalitica", "carga_horaria": "45h", "prerequisite": [] },
       { "name": "Gestão Ambiental", "value": "GestaoAmbiental", "carga_horaria": "45h", "prerequisite": [] },
       { "name": "Português Instrumental 1", "value": "Portugues1", "carga_horaria": "30h", "prerequisite": [] },
-      { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "75h", "prerequisite": [] },
+      { "name": "Química 1A", "value": "Quimica1A", "carga_horaria": "45h", "prerequisite": [] },
       { "name": "Tópicos de Engenharia Civil 1", "value": "TopicosEngenhariaCivil1", "carga_horaria": "90h", "prerequisite": [] }
     ],
     "2": [
@@ -36,7 +36,7 @@
       { "name": "Fenômeno de Transportes", "value": "FenomenoTransportes", "carga_horaria": "60h", "prerequisite": ["Fisica2"], "corequisite": ["Calculo4"] },
       { "name": "Língua Estrangeira 3", "value": "LinguaEstrangeira3", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira2"] },
       { "name": "Materiais de Construção 2", "value": "MateriaisConstrucao2", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao1"] },
-      { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [], "corequisite": ["TecnologiaConstrucoes1"] },
+      { "name": "Português Instrumental 4", "value": "Portugues4", "carga_horaria": "30h", "prerequisite": [], "corequisite": [] },
       { "name": "Tecnologia das Construções 1", "value": "TecnologiaConstrucoes1", "carga_horaria": "60h", "prerequisite": ["MateriaisConstrucao2"] },
       { "name": "Topografia 1", "value": "Topografia1", "carga_horaria": "60h", "prerequisite": ["DesenhoTecnico1"] }
     ],
@@ -53,7 +53,7 @@
       { "name": "Higiene Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
       { "name": "Mecânica dos Solos 1", "value": "MecanicaSolos1", "carga_horaria": "60h", "prerequisite": ["Geologia"], "corequisite": ["ResistenciaDosMateriais"] },
       { "name": "Mecânica Geral 2", "value": "MecanicaGeral2", "carga_horaria": "45h", "prerequisite": ["MecanicaGeral1"] },
-      { "name": "Resistência dos Materiais", "value": "ResistenciaDosMateriais", "carga_horaria": "80h", "prerequisite": ["MecanicaGeral1"] }
+      { "name": "Resistência dos Materiais", "value": "ResistenciaDosMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral1"] }
     ],
     "7": [
       { "name": "Estabilidade das Construções 1", "value": "EstabilidadeConstrucoes1", "carga_horaria": "60h", "prerequisite": ["ResistenciaDosMateriais"] },
