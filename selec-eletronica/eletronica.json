@@ -41,7 +41,6 @@
     { "name": "Sinais e Sistemas", "value": "SinaisSistemas", "carga_horaria": "60h", "prerequisite": ["CircuitosEletricos1"] }
   ],
   "5": [
-    { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "45h", "prerequisite": ["Calculo3"] },
     { "name": "Eletrônica 1", "value": "Eletronica1", "carga_horaria": "75h", "prerequisite": ["CircuitosEletricos1"] },
     { "name": "Higiene e Segurança do Trabalho", "value": "HigieneSegurancaTrabalho", "carga_horaria": "45h", "prerequisite": [] },
     { "name": "Instalações Elétricas", "value": "InstalacoesEletricas", "carga_horaria": "60h", "prerequisite": ["CircuitosEletricos2"] },
@@ -67,17 +66,17 @@
   "8": [
     { "name": "Conversão Eletromecânica de Energia", "value": "ConversaoEletromecanicaEnergia", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo1"] },
     { "name": "Eletromagnetismo 2", "value": "Eletromagnetismo2", "carga_horaria": "45h", "prerequisite": ["Eletromagnetismo1"] },
+    { "name": "Eletrônica 3", "value": "Eletronica3", "carga_horaria": "45h", "prerequisite": ["Eletronica2"] },
     { "name": "Fenômeno de Transportes", "value": "FenomenoTransportes", "carga_horaria": "60h", "prerequisite": ["Fisica2", "Calculo4"] },
     { "name": "Língua Estrangeira 5", "value": "LinguaEstrangeira5", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira4"] },
     { "name": "Princípios de Comunicação", "value": "PrincipiosComunicacao", "carga_horaria": "60h", "prerequisite": ["SinaisSistemas"] },
     { "name": "Tópicos de Engenharia Eletrônica 3", "value": "TopicosEngenhariaEletronica3", "carga_horaria": "60h", "prerequisite": [] }
   ],
   "9": [
-    { "name": "Eletrônica 3", "value": "Eletronica3", "carga_horaria": "45h", "prerequisite": ["Eletronica2"] },
     { "name": "Introdução ao TCC", "value": "IntroducaoTCC", "carga_horaria": "30h", "prerequisite": ["Portugues4"] },
     { "name": "Legislação para Engenharia", "value": "LegislacaoEngenharia", "carga_horaria": "30h", "prerequisite": [] },
     { "name": "Língua Estrangeira 6", "value": "LinguaEstrangeira6", "carga_horaria": "30h", "prerequisite": ["LinguaEstrangeira5"] },
-    { "name": "Organização dos Computadores", "value": "OrganizacaoComputadores", "carga_horaria": "45h", "prerequisite": [] },
+    { "name": "Organização de Computadores", "value": "OrganizacaoComputadores", "carga_horaria": "45h", "prerequisite": [] },
     { "name": "Resistência dos Materiais", "value": "ResistenciaMateriais", "carga_horaria": "60h", "prerequisite": ["MecanicaGeral"] },
     { "name": "Tópicos de Engenharia Eletrônica 4", "value": "TopicosEngenhariaEletronica4", "carga_horaria": "60h", "prerequisite": [] }
   ],
@@ -90,6 +89,7 @@
   "OPTATIVAS": [
     { "name": "Aterramento", "value": "Aterramento", "carga_horaria": "60h", "prerequisite": ["MedidasEletromagneticas"] },
     { "name": "Comunicações Óticas", "value": "ComunicacoesOticas", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
+    { "name": "Complementos de Matemática", "value": "ComplementosMatematica", "carga_horaria": "45h", "prerequisite": ["Calculo3"] },
     { "name": "Componentes de Sistemas Elétricos", "value": "ComponentesSistemasEletricos", "carga_horaria": "45h", "prerequisite": [], "corequisite": ["ConversaoEletromecanicaEnergia"] },
     { "name": "Educação das Relações Étnico-Raciais", "value": "EducacaoRelacoesEtnicoRaciais", "carga_horaria": "60h", "prerequisite": [] },
     { "name": "Eletromagnetismo Avançado", "value": "EletromagnetismoAvancado", "carga_horaria": "60h", "prerequisite": ["Eletromagnetismo2"] },
