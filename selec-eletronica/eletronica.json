@@ -82,7 +82,7 @@
     { "name": "Tópicos de Engenharia Eletrônica 4", "value": "TopicosEngenhariaEletronica4", "carga_horaria": "60h", "prerequisite": [] }
   ],
   "10": [
-    { "name": "ESO Bacharelado", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": [], "is_tcc_eso": true },
+    { "name": "ESO Bacharelado", "value": "ESOBacharelado", "carga_horaria": "180h", "prerequisite": ["Eletronica1"], "is_tcc_eso": true },
     { "name": "Gestão de Pessoas", "value": "GestaoPessoas", "carga_horaria": "45h", "prerequisite": [] },
     { "name": "Proteção de Sistemas Elétricos", "value": "ProtecaoSistemasEletricos", "carga_horaria": "45h", "prerequisite": ["ConversaoEletromecanicaEnergia"] },
     { "name": "TCC Bacharelado", "value": "TCCBacharelado", "carga_horaria": "30h", "prerequisite": ["IntroducaoTCC"], "is_tcc_eso": true }
