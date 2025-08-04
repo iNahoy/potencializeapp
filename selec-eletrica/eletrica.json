@@ -107,6 +107,7 @@
         { "name": "Lasers e suas Aplicações nas Engenharias", "value": "LasersAplicacoesEngenharias", "carga_horaria": "60h", "prerequisite": ["Fisica4"] },
         { "name": "Linguagem Brasileira de Sinais - LIBRAS", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Mantenabilidade de Equipamentos e Sistemas Elétricos", "value": "MantenabilidadeEquipamentosSistemasEletricos", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Matemática Elementar", "value": "MatematicaEL", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Métodos Computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
         { "name": "Pesquisa Operacional", "value": "PesquisaOperacional", "carga_horaria": "60h", "prerequisite": ["Calculo1"] },
         { "name": "Planejamento de Sistemas Elétricos", "value": "PlanejamentoSistemasEletricos", "carga_horaria": "60h", "prerequisite": [] },

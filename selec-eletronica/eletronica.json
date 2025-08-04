@@ -106,6 +106,7 @@
     { "name": "Linguagem Brasileira de Sinais - LIBRAS", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
     { "name": "Máquinas Elétricas", "value": "MaquinasEletricas", "carga_horaria": "60h", "prerequisite": ["ConversaoEletromecanicaEnergia"] },
     { "name": "Máquinas Primárias", "value": "MaquinasPrimarias", "carga_horaria": "60h", "prerequisite": ["Fisica2"] },
+    { "name": "Matemática Elementar", "value": "MatematicaEL", "carga_horaria": "60h", "prerequisite": [] },
     { "name": "Metodologia Científica", "value": "MetodologiaCientifica", "carga_horaria": "60h", "prerequisite": [] },
     { "name": "Métodos Computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
     { "name": "Microprocessadores e Microcontroladores", "value": "MicroprocessadoresMicrocontroladores", "carga_horaria": "60h", "prerequisite": ["TecnicasDigitais"] },

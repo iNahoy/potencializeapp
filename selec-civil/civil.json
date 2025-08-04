@@ -104,7 +104,7 @@
       { "name": "Gestão e Tecnologia de Aproveitamento de Resíduos da Construção Civil", "value": "GestaoResiduosConstrucao", "carga_horaria": "60h", "prerequisite": [] },
       { "name": "Hidrologia Aplicada a Geração de Energia", "value": "HidrologiaAplicada", "carga_horaria": "60h", "prerequisite": ["HidrologiaGeral"] },
       { "name": "Linguagem Brasileira de Sinais", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
-      { "name": "Matemática Elementar", "value": "MatematicaElementar", "carga_horaria": "60h", "prerequisite": [] },
+      { "name": "Matemática Elementar", "value": "MatematicaEL", "carga_horaria": "60h", "prerequisite": [] },
       { "name": "Métodos Computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
       { "name": "Orçamento na Construção Civil", "value": "OrcamentoConstrucaoCivil", "carga_horaria": "60h", "prerequisite": [], "corequisite": ["TecnologiaConstrucoes2"] },
       { "name": "Patologia e Terapia das Construções", "value": "PatologiaTerapiaConstrucoes", "carga_horaria": "60h", "prerequisite": ["TecnologiaConstrucoes1"] },

@@ -105,7 +105,7 @@
         { "name": "Linguagem brasileira de sinais", "value": "LIBRAS", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Máquinas de Elevação", "value": "MaquinasElevacao", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Máquinas Marítimas", "value": "MaquinasMaritimas", "carga_horaria": "60h", "prerequisite": [] },
-        { "name": "Matemática elementar", "value": "MatematicaElementar", "carga_horaria": "60h", "prerequisite": [] },
+        { "name": "Matemática Elementar", "value": "MatematicaEL", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Mecanismos de endurecimento", "value": "MecanismosEndurecimento", "carga_horaria": "60h", "prerequisite": [] },
         { "name": "Métodos computacionais", "value": "MetodosComputacionais", "carga_horaria": "60h", "prerequisite": ["CalculoNumerico"] },
         { "name": "Nanotecnologia e nanomateriais", "value": "NanotecnologiaNanomateriais", "carga_horaria": "60h", "prerequisite": [] },
